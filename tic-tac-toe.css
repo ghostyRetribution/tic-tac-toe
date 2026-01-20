@@ -14,14 +14,21 @@ main {
 	display: grid;
 	grid-template-columns: repeat(3, 1fr);
 	grid-template-rows: repeat(3, 1fr);
-	height: 800px;
-	width: 800px;
+	height: 500px;
+	width: 500px;
 	gap: 4px;
 	background-color: black;
+	margin-top: -200px;
 }
 
-main div  {
+main div {
 	background-color: white;
 	display: grid;
 	place-items: center;
+	font-size: 8rem;
+	user-select: none;
+}
+
+body #status-message {
+	font-size: 3rem;
 }
