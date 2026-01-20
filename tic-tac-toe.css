@@ -1,0 +1,24 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+
+body {
+	display: grid;
+	height: 100vh;
+	place-items: center;
+}
+
+main {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	grid-template-rows: repeat(3, 1fr);
+	height: 800px;
+	width: 800px;
+	gap: 4px;
+	background-color: black;
+}
+
+main div  {
+	background-color: white;
+}
